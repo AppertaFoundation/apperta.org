@@ -1,0 +1,5 @@
+---
+name: OPEN EPMA
+photo: '/img/GetUserPhoto.jfif'
+text: The Open EPMA subcommittee guides the development of <a target="_blank"  href="https://github.com/AppertaFoundation/openep/">OPENeP</a>, bringing a new level of usability and functionality for both ePrescribing and medicines administration and provides the foundation for a new generation of digital tools to support medicines management. The sub-committee Chair is Duncan Cripps. A clinical pharmacist with 26 years NHS experience, Duncan is currently the Lead Pharmacist for Electronic Prescribing at University Hospitals Plymouth NHS Trust and Clinical Academic Lead for Pharmacology & Therapeutics at Peninsula Medical School, University of Plymouth. He is keen to maximise the benefits of an open standards approach to support the safe and effective use of medicines across the health community.
+---

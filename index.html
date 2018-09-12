@@ -1,0 +1,259 @@
+---
+layout: default
+---
+  <header class="lg masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase text-dark">
+              <strong>The Apperta Foundation</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded text-dark mb-5">The Apperta Foundation is a clinician-led, not-for-profit company. Supported by NHS England, NHS Digital and others, we promote open systems and standards for digital health and social care.
+We show how the delivery of health and social care can be transformed when data, information and knowledge in IT systems is open, shareable and computable.</p>
+
+
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" target="_blank">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" style="background-image:url(../img/blog-bg.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg12 mx-auto text-center">
+                        <h1 class="text-uppercase text-dark">
+              <strong>Who We Are</strong>
+            </h1>
+            <h2 class="section-heading text-white">Our Founder Members</h2>
+            <hr class="light my-4">
+
+            {% assign rows = site.members.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for member in site.members offset:offset %}
+ 
+  <div class="col-sm-4">
+  <div class="card" style="height: 100%;">
+  <div class="card-header"><strong>{{ member.name }}</strong> <p><em>{{ member.title }}</em> </p></div>
+  <div class="card-body">
+  <img class="pull-left" src="{{ member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
+  <p class="card-text">{{ member.bio }}</p>
+  </div>
+  </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+            
+            <h2 class="section-heading text-white" style="padding-top: 20px">Our Directors</h2>
+            <hr class="light my-4">
+
+{% assign rows = site.directors.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for director in site.directors  limit:3 offset:offset %}
+ 
+  <div class="col-sm-4">
+  <div class="card" style="height: 100%;">
+  <div class="card-header"><strong>{{ director.name }}</strong> <p><em>{{ director.title }}</em> </p></div>
+  <div class="card-body">
+  <img class="pull-left" src="{{ director.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
+  <p class="card-text">{{ director.bio }}</p>
+  </div>
+  </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+
+
+              </div>
+           
+          </div>
+        </div>
+
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">What We Do</h2>
+            <hr class="my-4">
+                        <p class="mb-0">We provide governance, support and funding to a range of programmes, all of which contribute to our mission to transform health and social care through open systems, standards and data. Some, like Code4Health, are a way of working collaboratively to generate innovation, others, like CKM are tools to help generate new data models, others again are specific pieces of software. All are linked by their fundamental commitment to the power of open digital platforms.</p><br>
+          </div>
+        </div>
+
+
+
+{% assign rows = site.products.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row" style="margin-top: 20px">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for product in site.products limit:3 offset:offset %}
+
+      <div class="col-sm-4 text-center">
+      <div class="card" style="height: 100%;">
+      <div class="card-header bg-white" style="border-bottom: none">
+      <img src="{{ product.photo }}" style="height:100px" class="text-primary mb-3 sr-icons">
+      </div>
+      <div class="card-body" style="border-bottom: none">
+      <h3 class="mb-3">{{ product.name }}</h3>
+      <p class="text-muted mb-0">{{ product.text }}</p>
+      </div>
+      <div class="card-footer bg-white" style="border-top: none">
+
+      <a class="btn btn-info" target="_blank" href="{{ product.aboutLink }}">Find Out More</a>
+      {% if product.sourceCodeLink %}
+      <a style="margin-top:10px;" class="btn btn-light" target="_blank" href="{{ product.sourceCodeLink }}">Source Code <img src="img/GitHub-Mark.png" style="height:20px;"></a>
+      {% else %}
+      <p style="height: 30px"></p>
+      {% endif %}
+      </div>
+      </div>
+      </div>
+
+
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+    </section>
+
+    <section  id="governance" style="background-image:url(../img/blog-bg_blue.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+            <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+                       <h1 class="text-uppercase text-dark">
+              <strong>Sub-Committees</strong>
+            </h1>
+            <hr class="my-4">
+            <p class="mb-0">Overall governance for the Apperta Foundation is provided by our Board of Directors; we also have sub-committees who govern the development of particular services or products. As with our board, each sub-committee is clinically led to ensure work is always for the greatest benefit to patients and professionals.</p>
+          </div>
+        </div>
+
+
+{% assign rows = site.subcommittees.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row" style="margin-top: 20px">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for subcommittee in site.subcommittees limit:3 offset:offset %}
+ 
+            <div class="col-sm-4">
+               <div class="card" style="height: 100%;">
+                <div class="card-header"><strong>{{ subcommittee.name }}</strong></div>
+                <div class="card-body">
+                  <img class="pull-left" src="{{ subcommittee.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
+                <p class="card-text">{{ subcommittee.text }}</p>
+                </div>
+                </div>
+              </div>
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+</div>
+            
+    </section>
+	
+    <section  id="documents">
+            <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+                       <h1 class="text-uppercase text-dark">
+              <strong>Key Documents</strong>
+            </h1>
+            <hr class="my-4">
+            <p class="mb-0">We want to begin articulating our view of the world in a set of documents that stimulate productive debate and generate useable ideas. They will appear here as they are released.</p>
+          </div>
+        </div>
+
+
+{% assign rows = site.keydocuments.size | divided_by: 2.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row" style="margin-top: 20px">
+
+  {% assign offset = forloop.index0 | times: 2 %}
+  {% for keydocument in site.keydocuments limit:2 offset:offset %}
+ 
+            <div class="col-sm-6">
+               <div class="card" style="height: 100%; text-align: center;">
+                <div class="card-header" style="border-bottom: none"><strong>{{ keydocument.title }}</strong></div>
+                <div class="card-body" style="border-bottom: none">
+                  <img class="pull-left" src="{{ keydocument.thumbnail }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
+                <p class="card-text">{{ keydocument.description }}</p>
+                </div>
+                <div class="card-footer bg-white" style="border-top: none">
+
+      <a class="btn btn-info" target="_blank"  href="{{ keydocument.docURL }}">Read here</a>
+      <br>
+      <a style="margin-top:10px;" class="btn btn-light" target="_blank"  href="{{ keydocument.feedbackURL }}">Give Feedback</a>
+      </div>
+                </div>
+              </div>
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+</div>
+            
+    </section>
+
+
+<section class="text-white" id="news" style="background-color:#1a5281">
+      <div class="container text-center">
+		  <div class="col-lg-10 mx-auto">
+			<h2 class="mb-4">Featured Stories</h2>
+			<hr class="my-4"> 
+				
+				
+				
+							<div class="row" id="stories">
+							 {% for post in site.posts limit:3 %}
+							  <div class="col-md-4">
+								  <div class="thumbnail">
+								  <a href="{{ post.url }}">
+								  <img  src="{{ post.thumbnail }}" style="width:100%" alt="{{ post.title }}">
+									<div class="caption text-white"><br>
+									  <p>{{ post.title }}</p> 
+									</div>
+								  </a>
+								</div>
+							  </div>
+							{% endfor %}
+							</div>
+
+
+
+				</div>
+			</br>	 
+			<a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
+		</div>
+    </div>
+</section>
+	
