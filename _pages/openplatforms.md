@@ -4,7 +4,7 @@ layout: singlePage
 title:  "Open Platforms"
 ---
 
-<section class="text-white" id="news" style="background-color:#1a5281" style="padding-bottom: 50px">
+<section class="text-white" id="news" style="background-color:#1a5281; padding-bottom: 50px">
       <div class="container text-center">
       <div class="col-lg-10 mx-auto">
               <h1 class="mb-4">Defining an Open Platform</h1>
