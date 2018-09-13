@@ -17,7 +17,7 @@ title:  "Open Platforms"
 
 
 
-        <section id="openplatforms" style="padding-top: 50px">
+        <section id="openplatforms" style="padding-top: 20px">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
