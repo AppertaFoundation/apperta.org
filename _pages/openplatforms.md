@@ -1,7 +1,7 @@
 ---
 permalink: "/openplatforms/"
 layout: singlePage
-title:  "Open Platorms"
+title:  "Open Platforms"
 ---
 
 <section class="text-white" id="news" style="background-color:#1a5281">
