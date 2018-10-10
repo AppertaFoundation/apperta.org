@@ -1,6 +1,6 @@
 ---
 name: Paul Miller
-subcommittee: Clincal Content
+subcommittee: Clinical Content
 photo: '/img/paul-miller.jpg'
 role: Member
 bio: 
