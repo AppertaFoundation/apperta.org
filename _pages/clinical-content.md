@@ -6,7 +6,7 @@ description: Add description for the subcommittee here
 ---
 <section class="bg-white text-black" id="about">
       <div class="container text-center">
-        <h1 class="text-uppercase text-dark">{{ page.title }}</h2>
+        <h1 class="text-uppercase text-dark">{{ page.title }}</h1>
         <p align="center">{{ page.description }}</p><br>
 		<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
 </div>
