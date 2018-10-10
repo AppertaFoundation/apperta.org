@@ -8,7 +8,7 @@ description: Add description for the subcommittee here
       <div class="container text-center">
         <h1 class="text-uppercase text-dark">{{ page.title }}</h1>
         <p align="center">{{ page.description }}</p><br>
-		<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
+		<center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
 </div>
 </section>
 
@@ -35,14 +35,13 @@ description: Add description for the subcommittee here
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
                                             <div class="row">
-                                                <div class="col-md-12 col-xs-12 col-centered">
-                                                {% if subcommittee-member.twitter == null %}
+                                                <div class="col-md-12 col-xs-12 col-centered">                        {% if subcommittee-member.twitter == null %}
                                                     {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                                                 {% endif %}
-                                                {% if subcommittee-member.url == null %}
+                                                {% if subcommittee-member.www == null %}
                                                     {% else %}
-                                                    <a href="{{ subcommittee-member.url }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
+                                                    <a href="{{ subcommittee-member.www }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.linkedin == null %}
                                                     {% else %}
@@ -53,8 +52,7 @@ description: Add description for the subcommittee here
                                                     <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                                                 {% endif %}
                                                 </div>
-                                            </div>
-                                           
+                                            </div>                                         
                                     </div>
                                 </div>
                             </div>

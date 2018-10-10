@@ -5,7 +5,7 @@ photo: '/img/paul-miller.png'
 role: Member
 bio: 
 twitter: 
-url: 
+www: 
 github: 
 linkedin: 
 ---
