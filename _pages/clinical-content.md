@@ -32,7 +32,7 @@ title: "Clinical Content"
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
-                       {% for subcommittee-member in site.subcommittee-members offset:offset | sort: 'role' %} 
+                       {% for subcommittee-member in site.subcommittee-members offset:offset limit:3 | sort: 'role' %} 
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
@@ -45,7 +45,7 @@ title: "Clinical Content"
                             </div>
                          {% endif %}
                     {% endfor %}
-                 </div>
+                 </div><br>
                 {% endfor %}
             </div>
         </div>
