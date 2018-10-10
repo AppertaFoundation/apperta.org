@@ -33,7 +33,7 @@ title: "Clinical Content"
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
                     {% for subcommittee-member in site.subcommittee-members offset:offset %}
-                        {% if subcommittee-member.subcommittee == "{{% page.title %}}" }
+                        {% if subcommittee-member.subcommittee == "{{% page.title %}}" %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
                                     <div class="card-header"><strong>{{ subcommittee-member.name }}</strong> <p><em>{{ subcommittee-member.role }}</em> </p></div>
