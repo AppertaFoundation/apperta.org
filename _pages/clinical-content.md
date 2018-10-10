@@ -2,22 +2,15 @@
 permalink: "/clinical-content/"
 layout: singlePage
 title: "Clinical Content"
+description: Add description for the subcommittee here
 ---
-  <header class="lg masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase text-dark">
-              <strong>{{ page.title }}</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded text-dark mb-5">Introduction to clinical content subcommittee</p>
-          </div>
-        </div>
-      </div>
-    </header>
+<section class="bg-primary text-black" id="about">
+      <div class="container text-center">
+        <h2 class="mb-4">{{ page.title }}</h2>
+        <p align="left">{{ page.description }}</p><br>
+		<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
+</div>
+</section>
 
 <section id="about" style="background-image:url(../img/blog-bg.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
       <div class="container">
@@ -41,6 +34,25 @@ title: "Clinical Content"
                                     <div class="card-body">
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
+                                            <div class="row">
+                                                {% if subcommittee-member.twitter == null %}
+                                                    {% elseif %}
+                                                    <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                                                {% endif %}
+                                                {% if subcommittee-member.url == null %}
+                                                    {% elseif %}
+                                                    <a href="{{ subcommittee-member.url }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
+                                                {% endif %}
+                                                {% if subcommittee-member.linkedin == null %}
+                                                    {% elseif %}
+                                                    <a href="{{ subcommittee-member.linkedin }}" target="_blank"><i class="fas fa-linkedin fa-2x"></i></a>
+                                                {% endif %}
+                                                {% if subcommittee-member.github == null %}
+                                                    {% elseif %}
+                                                    <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fas fa-github fa-2x"></i></a>
+                                                {% endif %}
+                                            </div>
+                                           
                                     </div>
                                 </div>
                             </div>
