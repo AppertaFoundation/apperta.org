@@ -21,6 +21,7 @@ collections:
   - members
   - products
   - keydocuments
+  - subcommittee-members
 
 # Build settings
 markdown: kramdown
