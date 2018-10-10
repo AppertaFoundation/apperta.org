@@ -43,8 +43,7 @@ title: "Clinical Content"
                                     </div>
                                 </div>
                             </div>
-                            {% else %}
-                        {% endif %}
+                         {% endif %}
                     {% endfor %}
                  </div><br>
                 {% endfor %}
