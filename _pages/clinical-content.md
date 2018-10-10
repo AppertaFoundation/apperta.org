@@ -34,7 +34,8 @@ description: Add description for the subcommittee here
                                     <div class="card-body">
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
-                                            <div class="container text-center">
+                                            <div class="row">
+                                                <div class="col-md-12 col-xs-12 col-centered">
                                                 {% if subcommittee-member.twitter == null %}
                                                     {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
@@ -45,12 +46,13 @@ description: Add description for the subcommittee here
                                                 {% endif %}
                                                 {% if subcommittee-member.linkedin == null %}
                                                     {% else %}
-                                                    <a href="{{ subcommittee-member.linkedin }}" target="_blank"><i class="fas fa-linkedin fa-2x"></i></a>
+                                                    <a href="{{ subcommittee-member.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.github == null %}
                                                     {% else %}
-                                                    <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fas fa-github fa-2x"></i></a>
+                                                    <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                                                 {% endif %}
+                                                </div>
                                             </div>
                                            
                                     </div>
