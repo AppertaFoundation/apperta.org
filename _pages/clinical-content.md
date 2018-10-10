@@ -36,19 +36,19 @@ description: Add description for the subcommittee here
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
                                             <div class="row">
                                                 {% if subcommittee-member.twitter == null %}
-                                                    {% elseif %}
+                                                    {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.url == null %}
-                                                    {% elseif %}
+                                                    {% elsei%}
                                                     <a href="{{ subcommittee-member.url }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.linkedin == null %}
-                                                    {% elseif %}
+                                                    {% else %}
                                                     <a href="{{ subcommittee-member.linkedin }}" target="_blank"><i class="fas fa-linkedin fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.github == null %}
-                                                    {% elseif %}
+                                                    {% else %}
                                                     <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fas fa-github fa-2x"></i></a>
                                                 {% endif %}
                                             </div>
