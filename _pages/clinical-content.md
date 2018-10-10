@@ -1,6 +1,6 @@
 ---
 permalink: "/clinical-content/"
-layout: default
+layout: singlePage
 title: "Clinical Content"
 ---
   <header class="lg masthead text-center text-white d-flex">
