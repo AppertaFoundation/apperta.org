@@ -40,7 +40,7 @@ description: Add description for the subcommittee here
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.url == null %}
-                                                    {% elsei%}
+                                                    {% else %}
                                                     <a href="{{ subcommittee-member.url }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
                                                 {% endif %}
                                                 {% if subcommittee-member.linkedin == null %}
