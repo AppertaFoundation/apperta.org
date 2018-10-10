@@ -12,7 +12,7 @@ description: Add description for the subcommittee here
 </div>
 </section>
 
-<section id="about" style="background-image:url(../img/blog-bg.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+<section id="about" style="background-image:url(../img/blog-bg_blue.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
       <div class="container">
         <div class="row">
           <div class="col-lg12 mx-auto text-center">
