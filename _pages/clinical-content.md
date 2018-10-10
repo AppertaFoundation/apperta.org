@@ -2,7 +2,7 @@
 permalink: "/clinical-content/"
 layout: singlePage
 title: "Clinical Content"
-description: Add description for the subcommittee here
+description: The Clinical Content Subcommittee is a group of clinicians and experienced professionals from appropriate specialities and backgrounds. The Subcommittee includes representatives from England, Scotland, Ireland, Northern Ireland and Wales. The primary purpose of the Subcommittee is to drive and influence the development and quality improvement of open and shared clinical content for eHealth projects via a collaborative community, and to encourage and facilitate its use in real e-health implementations. They will provide the technical tools, plus professional support and assurance to those responsible for and involved in e-health projects where clinical content is a factor. The Subcommittee will work to promote open systems and standards for digital health and social care. They will support the aim to make the data, information and knowledge within IT systems open, shareable and computable. This will facilitate the creation of innovative digital services to transform the delivery of health and social care. The Subcommittee is chaired by a qualified and practising health professional, and consists of members with the appropriate skills and experience to enable them to contribute to the development of the clinical content agenda and influence how it progresses on behalf of their nation.
 ---
 <section class="bg-white text-black" id="about">
       <div class="container text-center">
