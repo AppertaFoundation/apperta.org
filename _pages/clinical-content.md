@@ -8,7 +8,7 @@ title: "Clinical Content"
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase text-dark">
-              <strong>{% page.title %}</strong>
+              <strong>{{% page.title %}}</strong>
             </h1>
             <hr>
           </div>
@@ -28,7 +28,7 @@ title: "Clinical Content"
             </h1>
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
-            {% if subcommittee-member.subccommittee == "{% page.title %}" }
+            {% if subcommittee-member.subccommittee == "{{% page.title %}}" }
             {% assign rows = site.subcommittee-members.size | divided_by: 3.0 | ceil %}
             {% for i in (1..rows) %}
 
