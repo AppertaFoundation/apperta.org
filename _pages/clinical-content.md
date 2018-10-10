@@ -6,7 +6,7 @@ description: The Clinical Content Subcommittee is a group of clinicians and expe
 ---
 <section class="bg-white text-black" id="about">
       <div class="container text-center">
-        <h1 class="text-uppercase text-dark">{{ page.title }}</h1>
+        <h1 class="text-uppercase text-dark">{{ page.title }}</h1><br>
         <p align="left">{{ page.description }}</p><br>
 		<center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
     </div>
