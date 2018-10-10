@@ -4,10 +4,10 @@ layout: singlePage
 title: "Clinical Content"
 description: Add description for the subcommittee here
 ---
-<section class="bg-primary text-black" id="about">
+<section class="bg-white text-black" id="about">
       <div class="container text-center">
-        <h2 class="mb-4">{{ page.title }}</h2>
-        <p align="left">{{ page.description }}</p><br>
+        <h1 class="text-uppercase text-dark">{{ page.title }}</h2>
+        <p align="center">{{ page.description }}</p><br>
 		<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
 </div>
 </section>
@@ -34,7 +34,7 @@ description: Add description for the subcommittee here
                                     <div class="card-body">
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
-                                            <div class="row">
+                                            <div class="container text-center">
                                                 {% if subcommittee-member.twitter == null %}
                                                     {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
