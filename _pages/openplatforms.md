@@ -26,7 +26,7 @@ title:  "Open Platforms"
           
          <p>Our proposal is based on HL7 FHIR, SNOMED-CT, IHE-XDS and openEHR and draws on pioneering work globally and in the UK that have proven how these standards can be used to build an open platform.<br><br>Since publication we have seen increasing interest in open platform approaches with open platform technology being implemented by a number of NHS Trusts, Genomics England and The City of Leeds for its PHR.</p><br><br>
          
-       <center>  <a href="/assets/Apperta_Defining_an_Open_Platform_April.pdf" target="_blank"><img src="/img/definingOpenPlatform.jpg" width="20%"></a>
+       <center>  <a href="/assets/Apperta_Defining_an_Open_Platform.pdf" target="_blank"><img src="/img/definingOpenPlatform.jpg" width="20%"></a>
        </center><br>
        <p>You can provide feedback on this document <a href="https://forums.apperta.org/c/open-platforms" target="_blank">here</a>.</p>
           
