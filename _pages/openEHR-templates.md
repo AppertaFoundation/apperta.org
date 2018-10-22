@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD:_pages/openEHR-templates.md
 permalink: "/temp/"
+=======
+permalink: "/openEHR-template/"
+>>>>>>> 99530c7c73ce44b409fcba538c5a0fe0b632e0d4:_pages/openEHR-template.md
 layout: page
 title: "openEHR Templates"
 ---
@@ -28,22 +32,16 @@ title: "openEHR Templates"
 				<th>Status</th>
                 <th>CKM Link</th>
                 <th><i class="fab fa-github"></i> Git Location</th>
-                <!--hidden field-->
                 <th>Key Words</th>
             </tr>
         </thead>
         <tbody>
         {% for openEHR-templates in site.openEHR-templates %}
             <tr>
-             <!--Template Name -->
                 <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.name }}</td>
-            <!--Template Description-->
                 <td><p>{{ openEHR-templates.description }}</p></td>
-            <!--Template Clinical Lead-->
-                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.lead }}</td>  
-            <!--Template Status-->    
+                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.lead }}</td>    
             <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.status }}</td>  
-            <!--Template CKM Link-->
                 <td style="text-align:center; vertical-align:middle">
                 {% if openEHR-templates.ckm == null %}
                 {% else %}
@@ -54,7 +52,6 @@ title: "openEHR Templates"
                 {% endif %}
                 {% endif %}
                 </td>
-            <!--Template Git Link-->
                 <td style="text-align:center; vertical-align:middle">
                 {% if openEHR-templates.git == null %}
                 </td>
@@ -62,7 +59,6 @@ title: "openEHR Templates"
                 <a href="{{ openEHR-templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
                 </td>
-            <!--Template Keywords HIDDEN-->
                 <td>{{ openEHR-templates.keywords }}</td>
             </tr>
         {% endfor %}
