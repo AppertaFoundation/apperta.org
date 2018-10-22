@@ -1,5 +1,5 @@
 ---
-permalink: "/openEHR-templates/"
+permalink: "/openehr-templates/"
 layout: page
 title: "openEHR Templates"
 ---
@@ -18,7 +18,6 @@ title: "openEHR Templates"
           <div class="col-lg-12">
             <center><h2 class="section-heading">openEHR Templates</h2>
             <hr class="my-4"></center>
-
   	<div style="overflow-x:auto;">	
          <table id="project" class="table table-striped table-bordered display responsive no-wrap" style="width:100%">
         <thead>
@@ -67,9 +66,7 @@ title: "openEHR Templates"
         {% endfor %}
     </tbody>
 </table>
-</div>
-
-        
+</div>        
       </div>
 	  </div>
 	  </div>
