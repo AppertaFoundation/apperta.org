@@ -1,5 +1,5 @@
 ---
-permalink: "/openEHR-template/"
+permalink: "/openEHR-templates/"
 layout: page
 title: "openEHR Templates"
 ---
