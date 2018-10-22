@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD:_pages/openEHR-templates.md
-permalink: "/temp/"
-=======
 permalink: "/openEHR-template/"
->>>>>>> 99530c7c73ce44b409fcba538c5a0fe0b632e0d4:_pages/openEHR-template.md
 layout: page
 title: "openEHR Templates"
 ---
