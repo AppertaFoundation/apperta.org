@@ -1,5 +1,5 @@
 ---
-permalink: "/featured-stories/"
+permalink: "/test/"
 layout: singlePage
 title:  "Featured Stories"
 ---
@@ -37,4 +37,3 @@ title:  "Featured Stories"
         </div>
         </div>
 </section>
-  
