@@ -1,6 +1,6 @@
 ---
 permalink: "/openEHR-templates/"
-layout: singlePage
+layout: Page
 title: "openEHR Templates"
 ---
 <section class="bg-primary text-white" id="about">
