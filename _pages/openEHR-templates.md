@@ -12,7 +12,7 @@ title: "openEHR Templates"
 </div>
 </section>
 
-<section id="openEHR-templates">
+<section id="openEHR-templatess">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -33,37 +33,37 @@ title: "openEHR Templates"
             </tr>
         </thead>
         <tbody>
-        {% for openEHR-template in site.openEHR-templates %}
+        {% for openEHR-templates in site.openEHR-templates %}
             <tr>
              <!--Template Name -->
-                <td style="text-align:center; vertical-align:middle">{{ openEHR-template.name }}</td>
+                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.name }}</td>
             <!--Template Description-->
-                <td><p>{{ openEHR-template.description }}</p></td>
+                <td><p>{{ openEHR-templates.description }}</p></td>
             <!--Template Clinical Lead-->
-                <td style="text-align:center; vertical-align:middle">{{ openEHR-template.lead }}</td>  
+                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.lead }}</td>  
             <!--Template Status-->    
-            <td style="text-align:center; vertical-align:middle">{{ openEHR-template.status }}</td>  
+            <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.status }}</td>  
             <!--Template CKM Link-->
                 <td style="text-align:center; vertical-align:middle">
-                {% if openEHR-template.ckm == null %}
+                {% if openEHR-templates.ckm == null %}
                 {% else %}
-                {% if openEHR-template.ckm contains 'http' %}  
-                <a href="{{ openEHR-template.ckm }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
+                {% if openEHR-templates.ckm contains 'http' %}  
+                <a href="{{ openEHR-templates.ckm }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
                 {% else %} 
-                <a href="{{ openEHR-template.ckm }}"><i class="fas fa-globe fa-2x"></i></a>
+                <a href="{{ openEHR-templates.ckm }}"><i class="fas fa-globe fa-2x"></i></a>
                 {% endif %}
                 {% endif %}
                 </td>
             <!--Template Git Link-->
                 <td style="text-align:center; vertical-align:middle">
-                {% if openEHR-template.git == null %}
+                {% if openEHR-templates.git == null %}
                 </td>
                 {% else %}
-                <a href="{{ openEHR-template.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="{{ openEHR-templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
                 </td>
             <!--Template Keywords HIDDEN-->
-                <td>{{ openEHR-template.keywords }}</td>
+                <td>{{ openEHR-templates.keywords }}</td>
             </tr>
         {% endfor %}
     </tbody>
