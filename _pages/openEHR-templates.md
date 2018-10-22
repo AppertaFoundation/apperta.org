@@ -30,7 +30,7 @@ title: "openEHR Templates"
             </tr>
         </thead>
         <tbody>
-        {% for templates in site.openEHR-templates %}
+        {% for templates in site.templates %}
             <tr>
                 <td style="text-align:center; vertical-align:middle">{{ templates.name }}</td>
                 <td><p>{{ templates.description }}</p></td>
