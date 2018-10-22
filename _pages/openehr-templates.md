@@ -55,11 +55,13 @@ title: "openEHR Templates"
                 {% endif %}
                 </td>
             <!--Template Git Link-->
+                <td style="text-align:center; vertical-align:middle">
                 {% if openEHR-template.git == null %}
-                <td></td>
+                </td>
                 {% else %}
-                <td style="text-align:center; vertical-align:middle"><a href="{{ openEHR-template.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a></td>
+                <a href="{{ openEHR-template.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
+                </td>
             <!--Template Keywords HIDDEN-->
                 <td>{{ openEHR-template.keywords }}</td>
             </tr>
