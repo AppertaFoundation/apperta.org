@@ -18,41 +18,7 @@ title: "openEHR Templates"
             <hr class="my-4"></center>
   	<div style="overflow-x:auto;">	
          <table id="project" class="table table-striped table-bordered display responsive no-wrap" style="width:100%">
-        <thead>
-            <tr>
-                <th>Template Name</th>
-                <th>Description/Use</th>
-                <th>Clinical Lead</th>
-				<th>Status</th>
-                <th>CKM Link</th>
-                <th><i class="fab fa-github"></i> Git Location</th>
-                <th>Key Words</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for templates in site.templates %}
-            <tr>
-                <td style="text-align:center; vertical-align:middle">{{ templates.name }}</td>
-                <td><p>{{ templates.description }}</p></td>
-                <td style="text-align:center; vertical-align:middle">{{ templates.lead }}</td>    
-            <td style="text-align:center; vertical-align:middle">{{ templates.status }}</td>  
-                <td style="text-align:center; vertical-align:middle">
-                {% if templates.ckm == null %}
-                {% else %}
-                <a href="{{ templates.ckm }}"><i class="fas fa-globe fa-2x"></i></a>
-                {% endif %}
-                </td>
-                <td style="text-align:center; vertical-align:middle">
-                {% if templates.git == null %}
-                </td>
-                {% else %}
-                <a href="{{ templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                {% endif %}
-                </td>
-                <td>{{ templates.keywords }}</td>
-            </tr>
-        {% endfor %}
-    </tbody>
+
 </table>
 </div>        
       </div>
