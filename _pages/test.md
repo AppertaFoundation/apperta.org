@@ -1,5 +1,5 @@
 ---
-permalink: "/test/"
+permalink: "/test2/"
 layout: singlePage
 title:  "Featured Stories"
 ---
