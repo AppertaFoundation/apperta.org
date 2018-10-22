@@ -1,7 +1,7 @@
 ---
 permalink: "/openEHR-templates/"
 layout: page
-title:  "openEHR Templates"
+title: "openEHR Templates"
 ---
 
 <section class="bg-primary text-white" id="about">
