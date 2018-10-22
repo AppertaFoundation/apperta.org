@@ -3,7 +3,6 @@ permalink: "/openEHR-templates/"
 layout: page
 title: "openEHR Templates"
 ---
-
 <section class="bg-primary text-white" id="about">
       <div class="container text-center">
         <h2 class="mb-4">Clinical Content</h2>
@@ -11,8 +10,7 @@ title: "openEHR Templates"
 		<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org">Suggest a Template</a></center>
 </div>
 </section>
-
-<section id="openEHR-templatess">
+<section id="openEHR-templates">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -32,30 +30,26 @@ title: "openEHR Templates"
             </tr>
         </thead>
         <tbody>
-        {% for openEHR-templates in site.openEHR-templates %}
+        {% for templates in site.openEHR-templates %}
             <tr>
-                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.name }}</td>
-                <td><p>{{ openEHR-templates.description }}</p></td>
-                <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.lead }}</td>    
-            <td style="text-align:center; vertical-align:middle">{{ openEHR-templates.status }}</td>  
+                <td style="text-align:center; vertical-align:middle">{{ templates.name }}</td>
+                <td><p>{{ templates.description }}</p></td>
+                <td style="text-align:center; vertical-align:middle">{{ templates.lead }}</td>    
+            <td style="text-align:center; vertical-align:middle">{{ templates.status }}</td>  
                 <td style="text-align:center; vertical-align:middle">
-                {% if openEHR-templates.ckm == null %}
+                {% if templates.ckm == null %}
                 {% else %}
-                {% if openEHR-templates.ckm contains 'http' %}  
-                <a href="{{ openEHR-templates.ckm }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
-                {% else %} 
-                <a href="{{ openEHR-templates.ckm }}"><i class="fas fa-globe fa-2x"></i></a>
-                {% endif %}
+                <a href="{{ templates.ckm }}"><i class="fas fa-globe fa-2x"></i></a>
                 {% endif %}
                 </td>
                 <td style="text-align:center; vertical-align:middle">
-                {% if openEHR-templates.git == null %}
+                {% if templates.git == null %}
                 </td>
                 {% else %}
-                <a href="{{ openEHR-templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="{{ templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
                 </td>
-                <td>{{ openEHR-templates.keywords }}</td>
+                <td>{{ templates.keywords }}</td>
             </tr>
         {% endfor %}
     </tbody>
