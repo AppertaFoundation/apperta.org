@@ -167,7 +167,10 @@ We show how the delivery of health and social care can be transformed when data,
                 <div class="card-body">
                   <img class="pull-left" src="{{ subcommittee.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                 <p class="card-text">{{ subcommittee.text }}</p>
+                {% if subcommittee.link == null %}
+                {% else %}
                 <a class="btn btn-info" target="_blank"  href="{{ subcommittee.link }}">More Information</a>
+                {% endif %}
                 </div>
                 </div>
               </div>
