@@ -162,13 +162,13 @@ We show how the delivery of health and social care can be transformed when data,
   {% for subcommittee in site.subcommittees limit:3 offset:offset %}
  
             <div class="col-sm-4">
-               <div class="card" style="height: 100%;">
+               <a href="{{ subcommittee.link }}"><div class="card" style="height: 100%;">
                 <div class="card-header"><strong>{{ subcommittee.name }}</strong></div>
                 <div class="card-body">
                   <img class="pull-left" src="{{ subcommittee.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                 <p class="card-text">{{ subcommittee.text }}</p>
                 </div>
-                </div>
+                </div></a>
               </div>
   {% endfor %}
 
