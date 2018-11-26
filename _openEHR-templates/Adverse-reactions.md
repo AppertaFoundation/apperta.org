@@ -4,7 +4,6 @@ description: To support a Longitudinal or Episodic allergies/adverse reaction ri
 lead: Dr Paul Miller
 status: Published v1.0
 ckm: http://ckm.apperta.org/ckm/#showTemplate_1051.57.71
-
 git: https://github.com/AppertaFoundation/apperta-uk-ckm-mirror/blob/master/local/templates/composition/IDCR%20-%20%20Adverse%20Reaction%20List.v1.oet
 keywords: allergy, adverse reaction, medication, summary, sensitivity
 ---
