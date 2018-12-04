@@ -6,3 +6,4 @@ status: Published v1.0
 ckm: http://ckm.apperta.org/ckm/#showTemplate_1051.57.61
 git: https://github.com/AppertaFoundation/apperta-uk-ckm-mirror/blob/master/local/templates/composition/DiADeM%20Assessment.v1.oet
 keywords: diadem, dementia, screening, assessment
+---
