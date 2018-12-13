@@ -5,7 +5,8 @@ title: "openEHR Templates"
 ---
 <section class="bg-primary text-white" id="about">
       <div class="container text-center">
-        <h2 class="mb-4">Clinical Content - openEHR Templates</h2>
+        <h2 class="mb-4">Clinical Content</h2>
+        <h3 class="mb-4">openEHR Templates</h3>
         <hr class="my-4">
         <p align="left">Templates are used to create definitions of content such as a particular document or message, required for specific use cases, such as specific screen forms, message types or reports. Typical examples include 'acute care discharge summary', 'GP referral' and radiology report'.  A list of the openEHR templates curated by the Clinical Content subcommittee can be found below.</p><br>
 		<!--<center><a class="btn btn-light btn-xl" href="mailto:info@apperta.org">Suggest a Template</a></center>-->
