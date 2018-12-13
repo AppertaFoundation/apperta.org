@@ -10,7 +10,7 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
       <div class="container text-center">
         <h1 class="text-uppercase text-dark">{{ page.title }}</h1><br>
         <p align="left">{{ page.description }}</p><br>
-        <p align="left">A copy of the subcommittee terms of reference can be found <a href="{{ page.TOR }}">here.</p><br>
+        <p align="left">A copy of the subcommittee terms of reference can be found <a href="{{ page.TOR }}">here.</a></p><br>
         <center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
     </div>
 </section>
