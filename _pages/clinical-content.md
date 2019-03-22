@@ -18,7 +18,6 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
 
 <section id="about" style="background-image:url(../img/blog-bg_blue.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
       <div class="container">
-        <div class="row">
           <div class="col-lg12 mx-auto text-center">
             <h1 class="text-uppercase text-dark">
               <strong>Subcommittee</strong>
@@ -66,7 +65,6 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
                 {% endfor %}
             </div>
         </div>
-    </div>
 </section>
 
     
