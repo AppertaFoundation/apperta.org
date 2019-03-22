@@ -25,6 +25,10 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
                 {% assign rows = site.subcommittee-members.size | where:"subcommittee",page.title | divided_by: 3.0 | ceil %}
+                <p>
+                    ROWS: 
+                    {% rows %}
+                </p>
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
