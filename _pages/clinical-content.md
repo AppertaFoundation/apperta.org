@@ -26,7 +26,7 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
             <hr class="light my-4">
                 {% assign rows = site.subcommittee-members.size | where:"subcommittee",page.title | divided_by: 3.0 | ceil %}
                 {% assign check = site.subcommittee-members | where:"subcommittee",page.title %}
-                {% assign checkrows = check.size  | divided_by: 3.0 | ceil}
+                {% assign checkrows = check.size | divided_by: 3.0 | ceil %}
                 <p>
                     ROWS: 
                     {{ checkrows  }}
