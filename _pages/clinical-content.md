@@ -27,14 +27,10 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
                 
                 {% assign members = site.subcommittee-members | where:"subcommittee",page.title %}
                 {% assign rows = members.size | divided_by: 3.0 | ceil %}
-                <p>
-                    ROWS: 
-                    {{ checkrows  }}
-                </p>
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
-			         {% assign sorted = site.subcommittee-members | sort:"role" %}
+			         {% assign sorted = site.subcommittee-members | where:"subcommittee",page.title | sort:"role" %}
                        {% for subcommittee-member in sorted limit:3 offset:offset%} 
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
@@ -44,7 +40,7 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
                                             <div class="row">
-                                                <div class="col-md-12 col-xs-12 col-centered">                        {% if subcommittee-member.twitter == null %}
+                                                <div class="col-md-12 col-xs-12  col-centered">                        {% if subcommittee-member.twitter == null %}
                                                     {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                                                 {% endif %}
