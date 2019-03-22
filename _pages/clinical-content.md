@@ -25,10 +25,11 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
                 {% assign rows = site.subcommittee-members.size | where:"subcommittee",page.title | divided_by: 3.0 | ceil %}
-                {% assign check = site.subcommittee-members.size | where:"subcommittee",page.title %}
+                {% assign check = site.subcommittee-members | where:"subcommittee",page.title %}
+                {% assign checkrows = check.size  | divided_by: 3.0 | ceil}
                 <p>
                     ROWS: 
-                    {{ check }}
+                    {{ checkrows  }}
                 </p>
                 {% for i in (1..rows) %}
                 <div class="row">
