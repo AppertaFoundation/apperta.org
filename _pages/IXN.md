@@ -26,7 +26,7 @@ TOR:
             <hr class="light my-4">
                 <div class="row">
 			        {% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in site.subcommittee-members | sort: 'role' %}
+                       {% for subcommittee-member in site.subcommittee-members | sort:'role' %}
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
