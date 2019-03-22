@@ -55,10 +55,10 @@ TOR:
                                             </div>                                         
                                     </div>
                                 </div>
-                            </div>
+                            </div><br><br>
                                  {% endif %}
                              {% endfor %}
-                        </div><br>
+                        </div>
             </div>
         </div>
     </div>
