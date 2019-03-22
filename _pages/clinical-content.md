@@ -29,8 +29,8 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
-			{% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in sorted limit:3 offset:offset | sort: 'role' %} 
+			         {% assign sorted = site.subcommittee-members | sort:"role" %}
+                       {% for subcommittee-member in sorted limit:3 offset:offset%} 
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
