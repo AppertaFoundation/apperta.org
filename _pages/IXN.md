@@ -26,7 +26,7 @@ TOR:
             <hr class="light my-4">
                 <div class="row">
 			        {% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in site.subcommittee-members | sort:"role" %}
+                       {% for subcommittee-member in sorted | sort:"role" %}
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
@@ -52,7 +52,7 @@ TOR:
                                                     <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                                                 {% endif %}
                                                 </div>
-                                            </div>                                         
+                                            </div><br>                                         
                                     </div>
                                 </div>
                             </div><br><br>
