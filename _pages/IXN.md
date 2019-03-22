@@ -63,6 +63,7 @@ TOR:
                                  {% endif %}
                              {% endfor %}
                         </div>
+                        {% endfor %}
             </div>
         </div>
     </div>
