@@ -16,19 +16,20 @@ TOR:
 </section>
 <section id="about" style="background-image:url(../img/blog-bg_blue.png);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
       <div class="container">
-        <div class="row">
           <div class="col-lg12 mx-auto text-center">
             <h1 class="text-uppercase text-dark">
               <strong>Subcommittee</strong>
             </h1>
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
-                {% assign rows = site.subcommittee-members.size | divided_by: 3.0 | ceil %}
+                
+                {% assign members = site.subcommittee-members | where:"subcommittee",page.title %}
+                {% assign rows = members.size | divided_by: 3.0 | ceil %}
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
-			{% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in sorted limit:3 offset:offset | sort: 'role' %} 
+                     {% assign sorted = site.subcommittee-members | where:"subcommittee",page.title | sort:"role" %}
+                       {% for subcommittee-member in sorted limit:3 offset:offset%} 
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
@@ -37,7 +38,7 @@ TOR:
                                         <img class="pull-left" src="{{ subcommittee-member.photo }}" style="height:100px; width:100px; margin:10px" alt="Card image cap">
                                             <p class="card-text">{{ subcommittee-member.bio }}</p>
                                             <div class="row">
-                                                <div class="col-md-12 col-xs-12 col-centered">{% if subcommittee-member.twitter == null %}
+                                                <div class="col-md-12 col-xs-12  col-centered">                        {% if subcommittee-member.twitter == null %}
                                                     {% else %}
                                                     <a href="http://twitter.com/{{ subcommittee-member.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                                                 {% endif %}
@@ -63,6 +64,5 @@ TOR:
                  </div><br>
                 {% endfor %}
             </div>
-        </div>
-    </div>
+        </div>  
 </section>
