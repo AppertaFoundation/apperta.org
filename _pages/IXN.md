@@ -24,12 +24,9 @@ TOR:
             </h1>
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
-                {% assign rows = site.subcommittee-members.size | divided_by: 3.0 | ceil %}
-                {% for i in (1..rows) %}
                 <div class="row">
-                    {% assign offset = forloop.index0 | times: 3 %}
-			{% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in sorted offset:offset limit:3 | sort: 'role' %} 
+			        {% assign sorted = site.subcommittee-members | sort:"role" %}
+                       {% for subcommittee-member in sorted | sort:"role" %}
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
@@ -55,18 +52,14 @@ TOR:
                                                     <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                                                 {% endif %}
                                                 </div>
-                                            </div>                                         
+                                            </div><br>                                         
                                     </div>
                                 </div>
-                            </div>
-                         {% endif %}
-                    {% endfor %}
-                 </div><br>
-                {% endfor %}
+                            </div><br><br>
+                                 {% endif %}
+                             {% endfor %}
+                        </div>
             </div>
         </div>
     </div>
 </section>
-
-    
-	
