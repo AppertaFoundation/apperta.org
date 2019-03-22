@@ -55,10 +55,10 @@ TOR:
                                                     <a href="{{ subcommittee-member.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                                                 {% endif %}
                                                 </div>
-                                            </div><br>                                         
+                                            </div>                                        
                                     </div>
                                 </div>
-                            </div><br><br>
+                            </div>
                                  {% endif %}
                              {% endfor %}
                         </div>
