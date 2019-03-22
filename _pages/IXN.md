@@ -25,9 +25,13 @@ TOR:
             <h2 class="section-heading text-white">Our Subcommittee Members</h2>
             <hr class="light my-4">
                 <div class="row">
-			        {% assign sorted = site.subcommittee-members | sort:"role" %}
-                       {% for subcommittee-member in sorted | sort:"role" %}
-                        {% if subcommittee-member.subcommittee == page.title %}
+{% assign rows = site.subcommittees.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row" style="margin-top: 20px">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for subcommittee in site.subcommittees limit:3 offset:offset %}
                             <div class="col-sm-4">
                                 <div class="card" style="height: 100%;">
                                     <div class="card-header"><strong>{{ subcommittee-member.name }}</strong> <p><em>{{ subcommittee-member.role }}</em> </p></div>
