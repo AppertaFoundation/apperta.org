@@ -27,7 +27,7 @@ TOR: '/assets/Apperta-CCSubComm-TOR.pdf'
                 {% assign rows = site.subcommittee-members.size | where:"subcommittee",page.title | divided_by: 3.0 | ceil %}
                 <p>
                     ROWS: 
-                    {% rows %}
+                    {{ rows }}
                 </p>
                 {% for i in (1..rows) %}
                 <div class="row">
