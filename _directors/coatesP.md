@@ -1,6 +1,6 @@
 ---
 name: Peter Coates
 photo: '/img/Peter150.png'
-title: NHS Digital Nominated Director
-bio: Peter is passionate about making improvements for patients and clinicians through better use of IT, he is the NHS Digital nominated Director on the Apperta Board to provide national strategic insight.
+title: Managing Director
+bio: Peter has previously held senior positions across central and local government driving digitally enabled service improvement, most recently with NHS England & NHS Digital. He has been instrumental in successfully bringing a number of open products and services to the health and care system.
 ---
