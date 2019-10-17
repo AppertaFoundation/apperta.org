@@ -53,12 +53,13 @@ title: "openEHR Templates"
                 {% endif %}
                 </td>
                 <td>{{ templates.keywords }}</td>
-                <td> <td style="text-align:center; vertical-align:middle">
+                <td style="text-align:center; vertical-align:middle">
                 {% if templates.exemplar == null %}
                 </td>
                 {% else %}
                 <a href="{{ templates.exemplar }}" target="_blank">{{ templates.examplar-name }}</i></a>
                 {% endif %}
+                </td>
             </tr>
         {% endfor %}
     </tbody>
