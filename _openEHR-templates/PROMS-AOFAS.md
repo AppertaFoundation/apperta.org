@@ -1,3 +1,4 @@
+---
 name: 	American Orthopaedic Foot and Ankle Society Score (AOFAS)
 description: For the recording of subjective assessment for completion by patient of ankle or hindfoot pain and function.
 lead: Dr Ian McNicoll
@@ -7,3 +8,4 @@ git: https://github.com/AppertaFoundation/apperta-uk-ckm-mirror/blob/master/loca
 exemplar: 
 exemplar-name: 
 keywords: PROMS, ankle
+---
