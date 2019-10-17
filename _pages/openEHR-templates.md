@@ -52,7 +52,6 @@ title: "openEHR Templates"
                 <a href="{{ templates.git }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
                 </td>
-                <td>{{ templates.keywords }}</td>
                 <td style="text-align:center; vertical-align:middle">
                 {% if templates.exemplar == null %}
                 </td>
@@ -60,6 +59,7 @@ title: "openEHR Templates"
                 <a href="{{ templates.exemplar }}" target="_blank">{{ templates.examplar-name }}</i></a>
                 {% endif %}
                 </td>
+                <td>{{ templates.keywords }}</td>
             </tr>
         {% endfor %}
     </tbody>
