@@ -1,3 +1,4 @@
+---
 name: Boston Carpal Tunnel Questionnaire Score (BOSTON)
 description: Use to capture and report Boston Carpal Tunnel Questionnaire (BOSTON) score details.
 lead: Dr Ian McNicoll
@@ -7,3 +8,4 @@ git: https://github.com/AppertaFoundation/apperta-uk-ckm-mirror/blob/master/loca
 exemplar: 
 exemplar-name: 
 keywords: PROMS, Carpal, Tunnel
+---
