@@ -28,6 +28,7 @@ title: "openEHR Templates"
 				<th>Status</th>
                 <th>CKM Link</th>
                 <th><i class="fab fa-github"></i> Git Location</th>
+                <th>Exemplar Application</th>
                 <th>Key Words</th>
             </tr>
         </thead>
@@ -52,6 +53,12 @@ title: "openEHR Templates"
                 {% endif %}
                 </td>
                 <td>{{ templates.keywords }}</td>
+                <td> <td style="text-align:center; vertical-align:middle">
+                {% if templates.exemplar == null %}
+                </td>
+                {% else %}
+                <a href="{{ templates.exemplar }}" target="_blank">{{ templates.examplar-name }}</i></a>
+                {% endif %}
             </tr>
         {% endfor %}
     </tbody>
