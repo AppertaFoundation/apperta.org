@@ -1,5 +1,5 @@
 ---
-name: 	PROMS - American Orthopaedic Foot and Ankle Society Score (AOFAS)
+name: PROMS - American Orthopaedic Foot and Ankle Society Score (AOFAS)
 description: For the recording of subjective assessment for completion by patient of ankle or hindfoot pain and function.
 lead: Dr Ian McNicoll
 status: Draft

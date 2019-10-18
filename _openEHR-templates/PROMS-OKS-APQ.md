@@ -1,6 +1,6 @@
 ---
-name: PROMS - Oxford Knee Score – Activity and Participation Questionnaire (OKS-APQ)
-description: Use to capture and report Oxford Knee Score – Activity and Participation Questionnaire (OKS-APQ) score details.
+name: PROMS - Oxford Knee Score ï¿½ Activity and Participation Questionnaire (OKS-APQ)
+description: Use to capture and report Oxford Knee Score ï¿½ Activity and Participation Questionnaire (OKS-APQ) score details.
 lead: Dr Ian McNicoll
 status: Draft
 ckm: https://ckm.apperta.org/ckm/archetypes/1051.32.905

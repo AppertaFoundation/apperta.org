@@ -1,6 +1,5 @@
 ---
-name: PROMS - 	
-Non-arthritic hip score (NAHS)
+name: PROMS - Non-arthritic hip score (NAHS)
 description: Non-arthritic hip score (NAHS) according to The Non Arthroplasty Hip Surgery Register (NAHSR) of the British Hip Society.
 lead: Dr Ian McNicoll
 status: Draft

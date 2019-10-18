@@ -1,6 +1,6 @@
 ---
-name: 	PROMS - Ankle Osteoarthritis Score (AOS) questionnaire
-description:  For the capture and reporting of the Ankle Osteoarthritis Score (AOS) questionnaire details.
+name: PROMS - Ankle Osteoarthritis Score (AOS) questionnaire
+description: For the capture and reporting of the Ankle Osteoarthritis Score (AOS) questionnaire details.
 lead: Dr Ian McNicoll
 status: Draft
 ckm: https://ckm.apperta.org/ckm/archetypes/1051.32.709
