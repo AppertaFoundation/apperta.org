@@ -1,7 +1,6 @@
 ---
 name: PROMS - International Knee Documentation Committee (IKDC) Subjective knee evaluation score
-description: 	
-For the recording and reporting of the patient reported results of the Subjective knee evaluation score developed by the International Knee Documentation Committee.
+description: For the recording and reporting of the patient reported results of the Subjective knee evaluation score developed by the International Knee Documentation Committee.
 lead: Dr Ian McNicoll
 status: Draft
 ckm: https://ckm.apperta.org/ckm/archetypes/1051.32.902
