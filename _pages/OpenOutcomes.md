@@ -1,7 +1,7 @@
 ---
 permalink: "/OpenOutcomes/"
 layout: singlePage
-title: "Open Ourcomes"
+title: "Open Outcomes"
 description: <p align="left">Background</p><p align="left">Operations on patients always have an impact, hopefully for the better, sometimes for the worse. There is variability in outcomes, which can depend on patient factors but can also depend upon the surgical teams that perform the surgery. So that any variability in outcomes in patient groups can be studied and improvements in care made, ‘Outcome Measures’ are collected. These are often patient completed questionnaires to formally score patients pain and function before and after surgery. Patient Reported Outcome Measures are known as PROMs.</p>
 TOR: 
 ---
