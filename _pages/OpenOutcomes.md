@@ -1,5 +1,5 @@
 ---
-permalink: "/OpenOutcomes/"
+permalink: "/openOutcomes/"
 layout: singlePage
 title: "OpenOutcomes"
 description: 
