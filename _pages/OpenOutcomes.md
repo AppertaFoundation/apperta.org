@@ -3,7 +3,7 @@ permalink: "/openOutcomes/"
 layout: singlePage
 title: "OpenOutcomes"
 description: 
-TOR: 
+TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
 ---
 
 <section class="bg-white text-black" id="about">
@@ -51,8 +51,7 @@ TOR:
         </ul>
         <p align="left"><h2>Over to you</h2></p>
         <p align="left">We want clinicians and their departments to get involved, subscribe to use the product and help to shape its future. Subscribers will be asked to take a seat on our committee if they so wish, to govern product development and to decide how future investment should be spent.</p></p><br>
-
-        <!--<p align="left">A copy of the subcommittee terms of reference can be found <a href="{{ page.TOR }}">here.</a></p><br>-->
+        <p align="left">A copy of our recent committee update can be found <a href="{{ page.TOR }}">here.</a></p><br>
         <center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BOpenOutcomes">Get in Touch</a></center>
     </div>
 </section>
