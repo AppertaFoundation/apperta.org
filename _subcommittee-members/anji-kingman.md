@@ -1,5 +1,5 @@
 ---
-name: Anji Kingman - Clinical Outcomes Manager, (Equality & Diversity Ally), Northumbria Healthcare NHS Trust
+name: Anji Kingman - Clinical Outcomes Manager, Northumbria Healthcare NHS Trust
 subcommittee: OpenOutcomes
 photo: '/img/AJK.png'
 role: Member
