@@ -1,5 +1,5 @@
 ---
-name: Ajay Malviya, Consultant Orthopaedic Surgeon - Northumbria Healthcare NHS Foundation Trust
+name: Ajay Malviya, Consultant Orthopaedic Surgeon
 subcommittee: OpenOutcomes
 photo: '/img/Ajay.jpg'
 role: Member
