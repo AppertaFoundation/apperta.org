@@ -1,5 +1,5 @@
 ---
 name: Physical and Mental Health
 photo: '/img/JS.jpg'
-text: The Physical and Mental Health Committee guides the development of solutions for to assist patient to manage their physical health to support their mental health.  The solutions aim to assist the patient and clinician to discuss openly how a patient can manager their own physical health with some support using digital siolutions. The committee Chair Dr J S Bamrah, MBE, FRCPsych Consultant Psychiatrist; Honorary Reader, University of Manchester; Council Member BMA; National Chairman, BAPIO.
+text: The Physical and Mental Health Committee guides the development of digital solutions to help patients with mental health problems better manage their physical health. The committee’s objective is to support doctors to educate and enable patients to prevent or manage long term disease such as diabetes, and for patients to have a better understanding of physical investigations through monitoring trends. The committee is chaired by Prof JS Bamrah CBE, a consultant psychiatrist at Greater Manchester Mental Health NHS FT and Honorary Reader at the University of Manchester.
 ---
