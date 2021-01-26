@@ -28,7 +28,7 @@ title:  "Open Platforms"
          
        <center>  <a href="/assets/Apperta_Defining_an_Open_Platform.pdf" target="_blank"><img src="/img/definingOpenPlatform.jpg" width="20%"></a>
        </center><br>
-       <p>You can provide feedback on this document <a href="https://forums.apperta.org/c/open-platforms" target="_blank">here</a>.</p>
+       <p>You can provide feedback on this document <a href="mailto:info@apperta.org" target="_blank">here</a>.</p>
           
           
           
