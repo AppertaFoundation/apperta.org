@@ -24,7 +24,7 @@ title:  "A Blueprint for a Co-Produced Personal Health Record (CoPHR)"
        <center>  <a href="/assets/Apperta_A_Blueprint_for_a_Co-produced_Personal_Health_Record_Ecosystem.pdf" target="_blank"><img src="/img/coPHR-download-icon.png" width="20%"></a>
        </center><br>
        <p>A markdown version of the publication can be found <a href="https://github.com/AppertaFoundation/apperta-documents/blob/master/A%20Blueprint%20for%20a%20co-produced%20Personal%20Health%20Record%20(co-PHR)%20ecosystem.md" target="_blank">here</a></p>
-       <p>You can provide feedback on this document <a href="https://forums.apperta.org/c/co-produced-personal-health-record" target="_blank">here</a>.</p> 
+       <p>You can provide feedback on this document <a href="mailto:info@apperta.org" target="_blank">here</a>.</p> 
               </div>
         </div>
         </div>
