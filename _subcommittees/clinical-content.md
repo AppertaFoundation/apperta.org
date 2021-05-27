@@ -1,6 +1,0 @@
----
-link: /clinical-content/
-name: Clincal Content
-photo: '/img/shane-mckee.jpg'
-text: The Committee includes representatives from England, Scotland, Ireland, Northern Ireland and Wales. The primary purpose of the committee is to drive and influence the development and quality improvement of open and shared clinical content for eHealth projects via a collaborative community, and to encourage and facilitate its use in real e-health implementations. The committee will work to promote open systems and standards for digital health and social care. They will support the aim to make the data, information and knowledge within IT systems open, shareable and computable. The committee is chaired by Shane McKee, a Consultant in Genetic Medicine at Belfast City Hospital an is also Chief Clinical Information Officer for Belfast Health & Social Care Trust. He is currently involved in the development of technology-enabled change in the Trust, and the wider regional EHR work, known as the Encompass Project. 
----
