@@ -1,6 +1,6 @@
 ---
 link: /openplatformscommittee/
 name: Open Platforms
-photo: '/img/John-Meredith-Profile.jpg'
+photo: '/img/john-paul.jpg'
 text: The Committee includes representatives from England, Scotland, Ireland, Northern Ireland and Wales. The purpose of the Open Platform Committee is to drive and influence the development and quality improvement of open and shared clinical content and curate the architecture of open platforms for eHealth projects via a collaborative community. The Committee will encourage and facilitate their use in real world implementations. The committee will provide the technical tools, plus professional support and assurance to those responsible for and involved in projects where clinical content is a factor. The Committee will promote open systems and standards for digital health and social care. They will support the aim to make the data, information and knowledge within IT systems open, shareable and computable. This will facilitate the creation of innovative digital services to transform the delivery of health and social care. The Committee is jointly chaired by a qualified and practising health professional and a non-clinical health informatics professional.
 ---
