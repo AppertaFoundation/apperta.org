@@ -54,11 +54,11 @@ TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
             <div class="row">
                 <div class="col-sm-3">
                     <a href="/assets/openOutcomes%20Frequently%20Asked%20Questions.pdf"><img src="/img/oo-faq.png"></a><br>
-                   <font size="2">We have produced a <b>Frequently Asked Questions</b> to aid with any departmental discussions, download it above</font>
+                   <font size="2">Read our <b>Frequently Asked Questions</b> to aid any departmental discussions</font>
                 </div>
                 <div class="col-sm-3">
                     <a href="/assets/openOutcomes%20Executive%20summary.pdf"><img src="/img/executive-summary.png"></a>
-                    <font size="2"><p><b>Executive Summary</b></p></font>
+                    <font size="2"><p>Download our <b>Executive Summary</b> to share with your colleagues.</p></font>
                 </div>
             </div>
         <br>
