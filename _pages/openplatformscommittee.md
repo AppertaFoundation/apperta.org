@@ -10,8 +10,8 @@ TOR: '/assets/Apperta-TOR-OPlatform-v1.0.pdf'
       <div class="container text-center">
         <h1 class="text-uppercase text-dark">{{ page.title }}</h1><br>
         <p align="left">{{ page.description }}</p><br>
-        <p align="left">The subcommittee has curated a number of openEHR templates for us which can be found <a href="{{ '/openEHR-templates' }}">here</a>.</p><br>
-        <p align="left">A copy of the subcommittee terms of reference can be found <a href="{{ page.TOR }}">here.</a></p><br>
+        <p align="left">The committee has curated a number of openEHR templates for us which can be found <a href="{{ '/openEHR-templates' }}">here</a>.</p><br>
+        <p align="left">A copy of the committee terms of reference can be found <a href="{{ page.TOR }}">here.</a></p><br>
         <center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
     </div>
 </section>
@@ -20,9 +20,9 @@ TOR: '/assets/Apperta-TOR-OPlatform-v1.0.pdf'
       <div class="container">
           <div class="col-lg12 mx-auto text-center">
             <h1 class="text-uppercase text-dark">
-              <strong>Subcommittee</strong>
+              <strong>Committee</strong>
             </h1>
-            <h2 class="section-heading text-white">Our Subcommittee Members</h2>
+            <h2 class="section-heading text-white">Our Committee Members</h2>
             <hr class="light my-4">
 
                 {% assign members = site.subcommittee-members | where:"subcommittee",page.title %}
