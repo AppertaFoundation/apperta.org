@@ -18,7 +18,7 @@ Healthcare organisations currently collect the data mostly in paper format which
 <p align="left">We have chosen to develop a solution that will be open source and based on open standards. It will sit either in fully compliant cloud-based servers or could sit within a healthcare organisation’s own environment, meeting all industry standards for security and GDPR. All data collected via the software will be held in an open computable format (openEHR) which will facilitate data analytics and will be designed to interoperate with other healthcare digital systems (Figure 2). Healthcare organisations will have full real-time access to their patient data for analysis and other uses (Figure 1), and data is protected as per the NHS governance policies.</p> 
 
 
-<img src="/img/OO-figure-1.png"><br>
+<img src="/img/OO-figure-1.png" width="100%"><br>
 
 <i><b>Figure 1:</b> The many uses of PROMs using the openOutcomes digital platform. </i><br><br>
 
@@ -66,7 +66,7 @@ Common MSK and Orthopaedic questionnaires have now been written as openEHR arche
 
 <p align="left">OpenOutcomes is a digital platform capable of building on modules for other speciality PROMs such as ophthalmology, general surgery and cancer services. The technology upon which its built allows for any PROMs questionnaire to be incorporated into the platform due its agnostic capabilities. Figure 2 shows the high level overview of the data technology architecture and how it can interoperate with other digital systems and EPRs within and across NHS organisations.</p>
 
-<img src="/img/OO-figure-2.png"><br>
+<img src="/img/OO-figure-2.png" width="100%"><br>
 
 <i><b>Figure 2:</b> High level data architecture overview of openOutcomes and how it is interoperable with other IT system across the NHS (Diagram adapted from John Meredith, NHS Wales) </i><br><br>
 
