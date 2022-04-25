@@ -28,7 +28,7 @@ Healthcare organisations currently collect the data mostly in paper format which
 
 <h2>Progress to Date </h2>
 
-<p align="left">We have been successful with obtaining funding from NHS Transformation (formerly NHSx) via the MSK Adoption fund along with funding from the North of England Commissioning Support unit (NECS) to build a best-in-class solution PROMs platform. We currently are near completion of the core minimum viable product (MVP) for the openOutcomes platform which can read and pull patient demographics from PAS and allow staff access via Active Directory (using their hospital password). We will shortly be implementing it in one NHS Trust for testing and feedback (May 2022) before offering the platform to further trusts subscribed to the project. </p>
+<p align="left">We have been successful with obtaining funding from NHS Transformation (formerly NHSx) via the <a href="https://www.nhsx.nhs.uk/key-tools-and-info/adoption-fund/adoption-fund-expansion-2022/" target="_blank">MSK Adoption Fund</a> along with funding from the North of England Commissioning Support unit (NECS) to build a best-in-class solution PROMs platform. We currently are near completion of the core minimum viable product (MVP) for the openOutcomes platform which can read and pull patient demographics from PAS and allow staff access via Active Directory (using their hospital password). We will shortly be implementing it in one NHS Trust for testing and feedback (May 2022) before offering the platform to further trusts subscribed to the project. </p>
 
 <h2>Next Steps</h2>
 
