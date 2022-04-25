@@ -77,7 +77,7 @@ Common MSK and Orthopaedic questionnaires have now been written as openEHR arche
 <div class="row">
                 <div class="col-sm-6">
                     <a href="/assets/openOutcomes%20Frequently%20Asked%20Questions.pdf"><img src="/img/oo-faq.png"></a><br>
-                   <font size="2">Read our <b>Frequently Asked Questions</b> to aid any departmental discussions</font>
+                   <font size="2"><p>Read our <b>Frequently Asked Questions</b> to aid any departmental discussions</p></font>
                 </div>
                 <div class="col-sm-6">
                     <a href="/assets/openOutcomes%20Executive%20summary.pdf"><img src="/img/executive-summary.png"></a>
