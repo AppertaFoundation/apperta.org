@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
  The Apperta Foundation is a clinician-led, not-for-profit company. Supported by NHS England, NHS Digital and others, we promote open systems and standards for digital health and social care. We show how the delivery of health and social care can be transformed when data, information and knowledge in IT systems is open, shareable and computable.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://appertafoundation.github.io/" # the base hostname & protocol for your site
-twitter_username: AppertaUK
 github_username:  Apperta
 
 collections:
