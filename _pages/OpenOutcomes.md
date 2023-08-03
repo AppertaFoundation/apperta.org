@@ -10,6 +10,7 @@ TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
         <div class="container text-left">
         <h1 class="text-uppercase text-dark text-center">{{ page.title }}</h1><br>
         <h2 align="center">Background</h2><br>
+        <hr class="mb-4">
         <p>Musculoskeletal interventions including physiotherapy, orthotics and surgery always have an impact on patients, hopefully for the better, sometimes for the worse. There is variability in outcomes, which can depend on patient factors but can also depend on the teams delivering care to patients. So that any variability in outcomes in patient groups can be studied and improvements in care made, ‘Outcome Measures’ are collected. These are often patient completed questionnaires to formally score patients’ pain and function before and after interventions including physiotherapy and surgery. Patient Reported Outcome Measures are known as PROMs.</p> 
 
 <p>Some healthcare providers and registries now routinely collect questionnaires to compare patients’ pre and post-intervention scores to inform clinical practice and drive improvement (Figure 1). The questionnaires are normally specific to the intervention that has been performed (e.g., hip and knee replacement scores) and most operations or interventions will also have a more general health status score applied (commonly the EuroQol 5 domain general health questionnaire, the “EQ-5D”). EQ-5D can be applied across all aspects of healthcare and is a good way to work out how much impact an intervention or operation may have on health compared to say treatment for diabetes. Other general questionnaires such as the MSK-HQ are being increasingly used in primary care and physiotherapy settings. This helps healthcare providers direct resources to the interventions that have the most patient benefit.</p>
@@ -24,11 +25,11 @@ TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
 <i><b>Figure 1:</b> The many uses of PROMs using the openOutcomes digital platform. </i><br><br>
 
 <h2 align="center">Solution</h2>
-
+<hr class="mb-4">
 <p>There are commercial options available; these can routinely cost each NHS organisation up to £50,000 per year. Instead, we can do this collectively, reduce cost and deliver a best-in-class solution designed by its users. To take the work forward we have created a committee under the governance of The Apperta Foundation, allowing others to get involved and collectively fund the product build. The Apperta Foundation is a clinician-led, “not-for-profit" and is supported by NHS England, NHS Digital and others. We estimate future costs to be £15k 'one off' implementation per trust/hospital and approximately £20-25k per annum. for annual support, hosting, maintenance and membership of the leadership committee deciding future functionality. The more Trusts, Health Boards and organisations that join us, the cheaper it will get. We are happy to work with the independent sector, and overseas organisations</p>
 
 <h2 align="center">Progress to Date </h2>
-
+<hr class="mb-4">
 <p>We have been successful with obtaining funding from NHS Transformation (formerly NHSx) via the MSK Adoption Fund along with funding from the North of England Commissioning Support unit (NECS) to build a best-in-class solution PROMs platform. We have completed the core minimum viable product (MVP) for the openOutcomes platform which can read and pull patient demographics from PAS and allow staff access via Active Directory (using their hospital password). This is being integrated into two NHS Trusts (Northumbria Healthcare and Birmingham and Sandwell) for testing and feedback before offering the platform to further trusts subscribed to the project.</p>
 
 <p>The platform has been designed to be “pathway agnostic” and cover PROMs in any specialty, as well as Patient Reported Experience Measures (PREMs). Common MSK and Orthopaedic outcomes have long been championed and questionnaires have now been written as openEHR archetypes ready to be incorporated into the platform should Trusts require it. These include:</p>
@@ -72,7 +73,27 @@ TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
 
 <i><b>Figure 2:</b> High level data architecture overview of openOutcomes and how it is interoperable with other IT system across the NHS (Diagram adapted from John Meredith, NHS Wales) </i><br><br>
 
+<div class="container">
+    <center>
+        <h2 class="mb-4">Demonstration Videos</h2>
+        <hr class="mb-4">
+    </center>
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/847937935?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100">
+                <div style="padding:56.37% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795709502?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <h2 align="center">Over to you </h2>
+<hr class="mb-4">
 
 <p>We want clinicians, allied healthcare professionals and their departments to get involved in this exciting project by subscribing to use the product and help to shape its future. Subscribers will be asked to take a seat on our committee if they so wish, to govern product development and to decide how future investment should be spent.</p>
 <center>
