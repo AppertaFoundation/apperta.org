@@ -135,7 +135,7 @@ TOR: '/assets/Open Outcomes - Community Update (230120).pdf'
                 {% for i in (1..rows) %}
                 <div class="row">
                     {% assign offset = forloop.index0 | times: 3 %}
-                     {% assign sorted = site.subcommittee-members | where:"subcommittee",page.title | sort:"role" %}
+                     {% assign sorted = site.subcommittee-members | where:"subcommittee",page.title | sort:"position" %}
                        {% for subcommittee-member in sorted limit:3 offset:offset%} 
                         {% if subcommittee-member.subcommittee == page.title %}
                             <div class="col-sm-4">
