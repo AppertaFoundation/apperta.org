@@ -10,7 +10,7 @@ TOR: '/assets/Apperta-TOR-OPlatform-v1.0.pdf'
       <div class="container text-center">
         <h1 class="text-uppercase text-dark">{{ page.title }}</h1><br>
         <p align="left">{{ page.description }}</p><br>
-        <p align="left">The committee has curated a number of openEHR templates for us which can be found <a href="{{ '/openEHR-templates' }}">here</a>.</p><br>
+        <p align="left">The committee has curated a number of openEHR templates for us which can be found <a href="https://github.com/AppertaFoundation/apperta-uk-ckm-mirror/tree/master" target="_blank">here</a>.</p><br>
         <p align="left">A copy of the committee terms of reference can be found <a href="{{ page.TOR }}">here.</a></p><br>
         <center><a class="btn btn-primary btn-xl" href="mailto:info@apperta.org?Subject=%5BClinical%20Content%20Subcommittee">Get in Touch</a></center>
     </div>
